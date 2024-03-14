@@ -96,19 +96,22 @@ main{
 div.video{
     background-color: #1a5c37;
     margin-bottom: 30px;
-   
-    margin-top: 0px;
+   margin-top: 0px;
+   margin-right: -20px;
+   margin-bottom: 0px;
     margin-left: -20px;
-    padding-bottom: 59%;
+    padding: 20px;
+    padding-bottom: 50%;
     position:relative;
+    
 }
 div.video > iframe{
     position:absolute;
     top: 5%;
+    bottom: 5%;
     left: 5%;
     width:90% ;
-    right: 90%;
-    height: 300px;
+    height: 90%;
 }
 
 main h1{
@@ -172,7 +175,8 @@ aside > h3{
     background-color: var(--cor4);
     color: white;
     padding: 15px;
-    margin: -10px -10px 0px -10px;
+    margin-top: auto;
+    margin-bottom: auto;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
     box-shadow: 0px 3px 5px 1px rgba(0, 0, 0, 0.355); 
